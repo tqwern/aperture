@@ -9,7 +9,6 @@ body {
 
 header {
     display: flex;
-    position: absolute;
 }
 
 .logo {
@@ -29,7 +28,6 @@ li, a{
 }
 
 header a {
-
     color: #FFFFFF;
     border-radius: 14px;
     margin-right: 50px;
@@ -38,7 +36,6 @@ header a {
 
 header li a:hover {
     width: 100%;
-    box-shadow: inset;
     color: black;
     background: #FFFFFF;
     padding: 9px 20px 13px;
