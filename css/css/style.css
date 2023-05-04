@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    margin: 30px 340px 29px 152px;
+
+}
+
+.nav  {
+    display: flex;
+    margin-top: 34px;
+
+}
+
+li, a{   
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header a {
+    color: #FFFFFF;
+    border-radius: 14px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+header li a:hover {
+    width: 100%;
+    color: black;
+    background: #FFFFFF;
+    padding: 9px 20px 13px;
+}
