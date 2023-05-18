@@ -1,42 +1,318 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
 }
 
+.wrapper {
+  width: 1903px;
+}
+/* section class="glav" начало*/
+
 header {
-    display: flex;
+  display: flex;
 }
 
 .logo {
-    margin: 30px 340px 29px 152px;
-
+  margin: 30px 640px 29px 152px;
 }
 
-.nav  {
-    display: flex;
-    margin-top: 34px;
-
+.nav {
+  display: flex;
+  margin-top: 34px;
+  text-align: center;
 }
 
-li, a{   
-    text-decoration: none;
-    list-style-type: none;
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 header a {
-    color: #FFFFFF;
-    border-radius: 14px;
-    margin-right: 50px;
-    font-size: 15px;
+  padding-right: 50px;
+  color: #ffffff;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 header li a:hover {
-    width: 100%;
-    color: black;
-    background: #FFFFFF;
-    padding: 9px 20px 13px;
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #ffffff;
+}
+
+.min_icon {
+  display: flex;
+  margin-top: -100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: aliceblue;
+}
+
+.min_icon p {
+  padding-left: 6px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.glav_info {
+  justify-items: center;
+  position: absolute;
+  bottom: 10%;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  left: 30%;
+  right: 0;
+  text-align: center;
+}
+
+.info {
+  width: 710px;
+  text-align: center;
+}
+
+.glav_info_p1 {
+  color: #c0c0c0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.info h1 {
+  color: #ffffff;
+  font-size: 54px;
+  padding-bottom: 10px;
+}
+
+.glav_info_p2 {
+  font-size: 17px;
+  color: #c0c0c0;
+}
+
+/* section class="glav" конец*/
+
+.wrapper {
+}
+
+.foto {
+  /* flex-wrap: wrap-reverse; */
+  /* display: flex; */
+  /* padding-left: 190px; */
+}
+
+.foto img {
+  /* padding-left: 50px; */
+}
+
+.foto1 {
+  /* padding-top: 200px;
+    padding-bottom: 50px; */
+  /* display: flex; */
+}
+
+.foto2 {
+  /* padding-top: 200px;
+    padding-bottom: 50px; */
+  /* display: flex; */
+}
+
+.foto_header {
+  color: #ffffff;
+  text-align: center;
+}
+
+.hh {
+  /* margin-top: -100px; */
+  color: #c0c0c0;
+  /* width: 400px; */
+  padding-right: 50px;
+}
+
+.p1 {
+  margin-bottom: 20px;
+}
+
+.hpa .hh a {
+  /* color: black;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    padding: 9px 10px 13px 42px; */
+}
+
+.hpa {
+  margin-left: 30px;
+  text-align: left;
+  margin-top: -220px;
+  width: 600px;
+}
+
+.foto_flex {
+  justify-content: center;
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+
+/* --------- */
+.hh_goru {
+  width: 350px;
+  color: #c0c0c0;
+  margin-top: -460px;
+  margin-left: 1400px;
+}
+
+.hh_goru h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.iconki_niz {
+  display: flex;
+  margin-left: 1500px;
+  margin-top: 303px;
+  color: aliceblue;
+}
+
+.iconki_niz p {
+  padding-left: 6px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.Sweden {
+  display: flex;
+  height: 713.25px;
+  justify-content: right;
+}
+
+.Sweden .info {
+  text-align: left;
+  padding: 173px 106px 0px 100px;
+  color: #c0c0c0;
+  /* padding-bottom: 30px; */
+}
+
+.Sweden a {
+  color: black;
+  border-radius: 14px;
+  background-color: #ffffff;
+  padding: 9px 10px 13px 42px;
+}
+
+.p2 {
+  padding-bottom: 30px;
+}
+
+.Sweden_img {
+  float: right;
+}
+
+.logotipi img {
+}
+
+span img {
+  /* width: 1px;
+    height: 18px; */
+}
+
+/* полутухлая кнопка начало */
+
+.hh a {
+  padding: 9px 10px 13px 4px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.buton {
+  display: flex;
+  border-radius: 10px;
+  /* background-color: #FFFFFF; */
+}
+
+.krug {
+  margin-right: 12px;
+}
+
+.buton p {
+  padding-top: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+/* ---_____--- */
+
+.text_logo {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 131px;
+  margin-bottom: 111px;
+}
+
+.text_logo h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.text_logo p {
+  font-weight: 400;
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.logo_1 {
+  margin-left: 390px;
+  margin-bottom: 140px;
+}
+
+.logo_1 img {
+  margin-right: 109px;
+}
+
+/* ------------- */
+
+.fon {
+  margin-top: 500px;
+  margin-bottom: 108px;
+}
+.gofp {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gofp h1 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.gofp p {
+  font-weight: 400;
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.ggf {
+    display: flex;
+    height: 40px;
+    width: 200px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 14px;
+}
+
+.hhhhh1 {
+    display: flex;
+    margin-left: 20px;
 }
